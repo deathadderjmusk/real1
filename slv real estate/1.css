@@ -1,0 +1,191 @@
+body {
+    margin: 0px;
+    max-width: 100%;
+}
+@import url(https://fonts.google.com/share?selection.family=Comfortaa:wght@300..700|Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900|Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900);
+.wraper{
+    max-width: 100%;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(30, 27, 27);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    
+
+}
+.nav{
+    padding-top: 10px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a:hover{
+    background-color: black;
+}
+.navbar li{
+    float: left;
+    
+
+}
+.logo img{
+    width: 200px;
+    border-radius: 5px;
+}
+.logo{
+    text-align: center;
+    padding-top: 10pxpx;
+}
+.ad img{
+    max-width: 100%;
+    border-radius: 10px;
+    
+}
+.ad{
+    padding-top: 20px;
+    margin: 10px;
+}
+.line1 hr{
+    
+    color: white;
+}
+.alpha1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.sites{
+    display: flex;
+    overflow: auto;
+    
+}
+.sites::-webkit-scrollbar{
+    width: 0px;
+}
+
+.sites img{
+    height: 300px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.sites .items{
+    text-align: center;
+    
+    
+}
+.services{
+    display: flex;
+    overflow: auto;
+    
+}
+.services::-webkit-scrollbar{
+    width: 0px;
+}
+
+.services img{
+    height: 300px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.services .items{
+    text-align: center;
+    
+    
+}
+.alpha2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;}
+    .alpha3{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;}
+
+
+
+
+
+
+
+      body{  font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2; /* Grey background color */
+    }
+    .container {
+        max-width: 500px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #fff; /* White background color */
+        text-align: center; /* Center align text */
+    }
+    h1 {
+        color: #333;
+    }
+    .form-group {
+        margin-bottom: 20px;
+        text-align: left; /* Align form fields to left */
+    }
+    label {
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #333;
+        display: block;
+        text-align: left; /* Align labels to left */
+    }
+    .form-group span {
+        display: inline-block; /* Display spans as inline-block */
+        width: calc(50% - 5px); /* Set width to 50% of container minus padding */
+        vertical-align: top; /* Align spans to the top */
+    }
+    input[type="text"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+    textarea {
+        height: 120px;
+    }
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
+        text-align: center;
+    }
+    input[type="submit"]:hover {
+        background-color: #45a049;
+        text-align: center;
+    }
+    .follow-links {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .follow-links a {
+        margin: 0 10px;
+        color: #333;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    .address{
+        padding-top: 25px;
+    }
+    .submit{
+        text-align: center;
+    }
